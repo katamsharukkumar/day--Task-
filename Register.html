@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Register Form</h1>
+  <input type="text" name="regusername" placeholder="Username" 
+   pattern="^[a-z]{3,8}(-[a-z]{1,7})?$" title="Username length should be between 3 to 8 characters, must be lowercase, and can contain one special symbol (-) only" required>
+  <br>
+  <br>
+  <input type="text" name="password" placeholder="Password" pattern="[a-zA-Z0-9\-]{6,20}" title="Password should contain lowercase, uppercase, numbers(0-9) with a special character(-)" required>
+  <br><br>
+  <input type="text" name="email" placeholder="Email" pattern="[a-z/d]+@[a-z].[a-z]" >
+  <br>
+  <label for="gender">gender</label>
+  <br>
+  <input type="radio" id="male" name="gender">
+  <label for="male">Male</label>
+
+  <input type="radio" id="female" name="gender">
+  <label for="female">FeMale</label>
+  <br><br>
+  <button> <a href="./RegisterSuccesful.html">Submit</a></button>
+
+  <button>
+    <a href="./login.html">Go Back</a>
+  </button>
+</body>
+
+</html>

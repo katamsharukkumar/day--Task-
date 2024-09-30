@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Password Reset  </h1>
+  <label for="username">Enter Username:</label>
+  <br>
+  <input type="text" name="forgot-user" id="username" pattern="^[a-z]{3,8}(-[a-z]{1,7})?$" title="Username length should be between 3 to 8 characters, must be lowercase, and can contain one special symbol (-) only" required>
+  <br>
+  <label for="otp">Enter OTP</label>
+  <br>
+  <input type="text" name="otp" id="otp" pattern="[/d]{4}">
+<br>
+<br>
+  <button>
+    <a href="./forgotResponse.html">submit</a>
+  </button>
+</body>
+</html>
